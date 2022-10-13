@@ -42,11 +42,10 @@ for($i= 0 ; $i < count($students); $i++) {
 ?>
     <h3>Surname: <?= $students[$i]['surname']?></h3>
 <?php
+    $allVotes = 0;
     // Voti Studenti
     for($j = 0;$j < count($students[$i]['votes']); $j++ ){
         $allVotes += $students[$i]['votes'][$j]; 
-
-        
 
     }
     $media = $allVotes / 4 ; // Media Voti
@@ -55,7 +54,6 @@ for($i= 0 ; $i < count($students); $i++) {
 
 <?php
 
-    $allVotes = 0;
 }
 
 
