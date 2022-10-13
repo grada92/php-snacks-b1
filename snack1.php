@@ -15,7 +15,7 @@ Olimpia Milano - Cantù | 55-60 --->
         "hometeam" => "Olimpia Torino",
         "homepoints" => 65,
         "awayteam" => "Roma'",
-        "awaypoints" => 40
+        "awaypoints" => 40,
       ],
 
       [
